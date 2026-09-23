@@ -78,6 +78,7 @@ namespace WindowsFormsApp1
             amount_tip = amount * (tips / 100) ;
             net_amount = amount;
             total_amount= amount + sales_text + amount_tip;
+
             // Display output
             lblsalestxt.Text = sales_text.ToString("c");
             lbltipsamount.Text = amount_tip.ToString("c");
